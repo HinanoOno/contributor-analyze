@@ -1,0 +1,18 @@
+# Dependencies
+/node_modules/
+/app/node_modules/
+
+# Database files
+*.sqlite
+
+# Local environment variables
+.env.local
+
+# Build output & caches
+.next/
+
+# VS Code editor settings
+.vscode/
+
+# ESLint configuration
+app/.eslintrc.json

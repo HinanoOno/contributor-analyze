@@ -1,0 +1,52 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "biome:lint": "biome lint .",
+    "biome:lint:fix": "biome lint --write .",
+    "biome:check": "biome check --write .",
+    "db:init": "node init-db.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "@google/genai": "^1.15.0",
+    "@google/generative-ai": "^0.24.1",
+    "@slack/web-api": "^7.10.0",
+    "chart.js": "^4.5.0",
+    "chartjs-chart-error-bars": "^4.4.4",
+    "highlight.js": "^11.11.1",
+    "jstat": "^1.9.6",
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@tailwindcss/postcss": "^4",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "9.33.0",
+    "eslint-config-next": "15.5.0",
+    "jest": "^30.0.5",
+    "tailwindcss": "^4",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5"
+  }
+}
